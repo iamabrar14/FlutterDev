@@ -52,7 +52,7 @@ class loginpage extends StatelessWidget {
                       child: Text("Login"),
                       style: TextButton.styleFrom(minimumSize: Size(100, 50)),
                       onPressed: () {
-                        Navigator.pushNamed(context, MyRoutes.loginRoute);
+                        Navigator.pushNamed(context, MyRoutes.homeRoute);
                       },
                     ),
                   ],
